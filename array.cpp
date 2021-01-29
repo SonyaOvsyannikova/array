@@ -24,7 +24,7 @@ int main()
 	cout << endl;
 	int sum = arr[0];
 	cout << "[";
-	for (int i = 0; i < m; i++)
+	for (int i = 1; i < m; i++)
 	{ 
 		cout << "  " << sum;
 		sum += arr[i];
